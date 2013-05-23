@@ -2,5 +2,5 @@
 
 ##CPP Code X
 
-[@larusx](http://twitter.com/larusx)
+[@LarusX](http://twitter.com/larusx)
 
