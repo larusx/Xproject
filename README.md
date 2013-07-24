@@ -1,6 +1,11 @@
-#Xproject
+#X
 
-##CPP Code X
-##Prepare
+##ftp server
+
+* epoll port 21
+* pthread port 20
+
+##TODO
+
 
 [@LarusX](http://twitter.com/larusx)

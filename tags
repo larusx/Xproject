@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+TCP	./TCP.h	/^	TCP(int port):on(1)$/;"	f	class:X::TCP	access:public	signature:(int port)
+TCP	./TCP.h	/^class TCP$/;"	c	namespace:X
+TCP_listen	./TCP.h	/^	TCP_listen()$/;"	f	class:X::TCP	access:public	signature:()
+X	./TCP.h	/^namespace X$/;"	n
+X	./Xproject.h	/^namespace X$/;"	n
+X::TCP	./TCP.h	/^class TCP$/;"	c	namespace:X
+X::TCP::TCP	./TCP.h	/^	TCP(int port):on(1)$/;"	f	class:X::TCP	access:public	signature:(int port)
+X::TCP::TCP_listen	./TCP.h	/^	TCP_listen()$/;"	f	class:X::TCP	access:public	signature:()
+X::TCP::on	./TCP.h	/^	int on;$/;"	m	class:X::TCP	access:private
+X::TCP::s_sock	./TCP.h	/^	struct sockaddr_in s_sock; $/;"	m	class:X::TCP	typeref:struct:X::TCP::sockaddr_in	access:private
+X::TCP::s_sockfd	./TCP.h	/^	int s_sockfd;$/;"	m	class:X::TCP	access:private
+_TCP_H	./TCP.h	2;"	d
+main	./ftp.c	/^int main()$/;"	f	signature:()
+on	./TCP.h	/^	int on;$/;"	m	class:X::TCP	access:private
+s_sock	./TCP.h	/^	struct sockaddr_in s_sock; $/;"	m	class:X::TCP	typeref:struct:X::TCP::sockaddr_in	access:private
+s_sockfd	./TCP.h	/^	int s_sockfd;$/;"	m	class:X::TCP	access:private
